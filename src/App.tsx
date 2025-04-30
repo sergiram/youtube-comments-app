@@ -6,8 +6,6 @@ interface Comment {
   text: string;
 }
 
-// AIzaSyDBRIoGLd9vJuQL2EgdEqFTj9QHd_crLnk
-
 const API_KEY = import.meta.env.VITE_YT_API_KEY;
 console.log(import.meta.env);
 console.log("API KEY: ", API_KEY);
