@@ -24,13 +24,13 @@ function App() {
     // setComments([]);
     console.log('entra')
     try{
-      const response = await fetch(
-        `https://www.googleapis.com/youtube/v3/commentThreads?&videoId=${videoId}&key=${API_KEY}&maxResults=10`
-      );
+      // const response = await fetch(
+        
+      // // );
 
-      console.log('Respuesta API: ', response);
-      const data = await response.json();
-      console.log('fetchComments Respuesta API: ', data);
+      // console.log('Respuesta API: ', response);
+      // const data = await response.json();
+      // console.log('fetchComments Respuesta API: ', data);
       // if(data.error){
       //   setError(data.error);
       //   setLoading(false);
